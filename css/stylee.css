@@ -111,6 +111,12 @@ nav {
   font-weight: 700;
   text-shadow: var(--text-shadow);
 }
+.mt-5{
+padding-top: 10%;
+}
+.overflow-auto{
+  overflow: hidden;
+}
 :has(.cheefs:target) .get-cheefs .red {
   color: var(--text-color);
   font-weight: 700;
@@ -389,7 +395,7 @@ svg {
   justify-content: space-between;
 }
 .inner {
-  padding: 0.8%;
+  padding: 3%;
   width: 50%;
   background-color: var(--back-ground1);
 }
@@ -476,7 +482,7 @@ footer {
   color: #eee;
   display: flex;
   margin: auto;
-  padding: 5% 0;
+  padding: 1% 0;
 }
 .social-media {
   width: 25%;
@@ -507,7 +513,7 @@ footer {
   justify-content: space-between;
 }
 .icons img {
-  width: 50%;
+  width: 25%;
   filter: invert(1);
 }
 .subscribe {
@@ -660,5 +666,14 @@ background-color: gray;
   color: black;
   text-align: center;
   }
+  .mt-5{
+    padding-top: 25%;
+    }
+}
+.pb-5{
+  padding-bottom: 25px;
+}
+.pb-3{
+  padding-bottom: 10px;
 }
 
